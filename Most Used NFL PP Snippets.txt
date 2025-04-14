@@ -1,0 +1,329 @@
+<div class="table_wrapper">
+    <table class="sr_share" data-cols-to-freeze="1,3">
+    
+
+
+
+    <hr style="border: 2px solid #666; width: 60%; margin: auto 12px;" />
+
+
+
+
+    <ul style="list-style: none; margin: 4px;">
+        <li class="excerpt_note">* - Pro Bowl Selection</li>
+        <li class="excerpt_note">♦ - Led the League</li>
+       </ul>
+
+
+
+
+    <ul style="list-style: none; margin: 4px;">
+        <li class="excerpt_note">+ - All-Pro Selection</li>
+        <li class="excerpt_note">* - Pro Bowl Selection</li>
+        <li class="excerpt_note">♦ - Led the League</li>
+       <li>★- NFL Hall of Fame</li>
+   </ul>
+   
+   
+   <ul style="list-style: none; margin: 4px;">
+        <li class="excerpt_note">+ - AFL All-League Selection</li>
+        <li class="excerpt_note">* - AFL All-Star Selection</li>
+        <li class="excerpt_note">♦ - Led the AFL</li>
+   </ul>
+   
+   
+   <ul style="list-style: none; margin: 4px;">
+        <li class="excerpt_note">♚ - NFL Champion</li>
+        <li class="excerpt_note">♔ - AAFC Champion</li>
+        </ul>
+       
+       <ul style="list-style: none; margin: 4px;">
+        <li class="excerpt_note">+ - All-Pro Selection</li>
+        <li class="excerpt_note">* - Pro Bowl Selection</li>
+        <li class="excerpt_note">♦ - Led the League</li>
+       <li class="excerpt_note">♚ - NFL Champion</li>
+       <li class="excerpt_note">★- NFL Hall of Fame</li>
+       <li class="excerpt_note">♠ - NFL Record 1984-2002</li>
+   </ul>
+
+
+½
+
+
+<ul class="pp_excerpt"> 
+<li class="pp_excerpt_pos">Center</li>
+<li class="pp_excerpt_team">Pittsburgh Steelers</li>
+<li class="pp_excerpt_pos">Kansas City Chiefs</li>
+<li class="pp_excerpt_year">1974-1990</li>
+	</ul>
+	
+
+ <ul class="pp_excerpt"> 
+<li class="pp_excerpt_pos"></li>
+<li class="pp_excerpt_team"></li>
+<li class="pp_excerpt_team"></li>
+<li class="pp_excerpt_team"></li>
+<li class="pp_excerpt_team"></li>
+<li class="pp_excerpt_year"></li>
+	</ul>   
+
+
+
+    
+
+
+
+<h3 class="good_reads_heading">For some good additional reading:</h3>
+<ul class="good_reads">
+ 	<li><a href="https://www.pro-football-reference.com/players/G/GlicFr00.htm" target="_blank" rel="noopener noreferrer">Fred Glick at Pro Football Reference</a></li>
+	<li><a href="https://www.profootballhof.com/players/gale-sayers/" rel="noopener noreferrer" target="_blank">Halfback "Kansas Comet" Gale Sayers</a></li>
+	<li><a href="http://www.bearshistory.com/lore/galesayers.aspx" rel="noopener noreferrer" target="_blank">Gale Sayers, Running Back, 1965-1971</a></li>
+
+ 	
+</ul>
+
+
+
+<div style="text-align: center; font-weight: bold;">Most Pass Catches in Green Bay History</div>
+
+
+
+********************* Small Icon Rollover **************************
+
+<td>Roman Gabriel<a href="https://nflpastplayers.com/roman-gabriel/" class="g_sm_icon alignnone"></a></td>
+
+
+
+
+******************************************************************
+
+<ul style="list-style: none; font-style: italic; display: block;">
+    <li>* - Hall of Fame</li>
+    <li><span style="text-decoration: underline;"><strong>"Bold Text"</strong> </span>- Still Active on Team</li>
+    <li><strong>"Bold Text"</strong> - Still Active in League</li>
+    <li><a class="g_sm_icon alignnone" href="#"> </a> - Gallery Available</li>
+</ul>
+
+
+
+*******************************************************************
+
+[justified_image_grid preset=c8 ex_image_taxonomy=attachment_category ex_image_tax_term=football-cards exclude=21705 rml_id=447]
+
+
+½
+
+
+
+*******************************************************************
+
+[justified_image_grid preset=c8 title_field=caption caption_field=off caption=below mobile_caption=below caption_height=48 image_taxonomy=player_name image_tax_term="alan page,football-cards" orderby="title" order=ASC]
+
+
+
+**********************SYMBOLS - Use for Stat Notes***************
+
+
+★- NFL Hall of Fame
++ - All Pro
+* - Pro Bowl
+
+
+†
+‡
+♠	&#9824;	&spades;	SPADE --- NFL Record
+❤  &#10084;	Heavy black heart
+♥   &hearts; Black heart ----- Franchise Record
+♣   &#9827;  &clubs;    Clubs 
+
+♦ - Led the League
+
+
+♡	 	 	&#9825;	White heart
+
+
+
+♔	 	 	&#9812;	White King - AFL, AAFC Champ
+♚	 	 	&#9818;	Black konge  NFL Champ 
+
+
+
+
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+<div class="table_wrapper">
+    <table class="sr_share" data-cols-to-freeze="1,3">
+    
+
+
+
+    <hr style="border: 2px solid #666; width: 60%; margin: auto 12px;" />
+
+
+
+
+    <ul style="list-style: none; margin: 4px;">
+        <li class="excerpt_note">* - Pro Bowl Selection</li>
+        <li class="excerpt_note">♦ - Led the League</li>
+       </ul>
+
+
+
+
+    <ul style="list-style: none; margin: 4px;">
+        <li class="excerpt_note">+ - All-Pro Selection</li>
+        <li class="excerpt_note">* - Pro Bowl Selection</li>
+        <li class="excerpt_note">♦ - Led the League</li>
+       <li>★- NFL Hall of Fame</li>
+   </ul>
+   
+   
+   <ul style="list-style: none; margin: 4px;">
+        <li class="excerpt_note">+ - AFL All-League Selection</li>
+        <li class="excerpt_note">* - AFL All-Star Selection</li>
+        <li class="excerpt_note">♦ - Led the AFL</li>
+   </ul>
+   
+   
+   <ul style="list-style: none; margin: 4px;">
+        <li class="excerpt_note">♚ - NFL Champion</li>
+        <li class="excerpt_note">♔ - AAFC Champion</li>
+        </ul>
+       
+       <ul style="list-style: none; margin: 4px;">
+        <li class="excerpt_note">+ - All-Pro Selection</li>
+        <li class="excerpt_note">* - Pro Bowl Selection</li>
+        <li class="excerpt_note">♦ - Led the League</li>
+       <li class="excerpt_note">♚ - NFL Champion</li>
+       <li class="excerpt_note">★- NFL Hall of Fame</li>
+       <li class="excerpt_note">♠ - NFL Record 1984-2002</li>
+   </ul>
+
+
+½
+
+
+<ul class="pp_excerpt"> 
+<li class="pp_excerpt_pos">Center</li>
+<li class="pp_excerpt_team">Pittsburgh Steelers</li>
+<li class="pp_excerpt_pos">Kansas City Chiefs</li>
+<li class="pp_excerpt_year">1974-1990</li>
+	</ul>
+	
+
+ <ul class="pp_excerpt"> 
+<li class="pp_excerpt_pos"></li>
+<li class="pp_excerpt_team"></li>
+<li class="pp_excerpt_team"></li>
+<li class="pp_excerpt_team"></li>
+<li class="pp_excerpt_team"></li>
+<li class="pp_excerpt_year"></li>
+	</ul>   
+
+
+
+    
+
+
+
+<h3 class="good_reads_heading">For some good additional reading:</h3>
+<ul class="good_reads">
+ 	<li><a href="https://www.pro-football-reference.com/players/G/GlicFr00.htm" target="_blank" rel="noopener noreferrer">Fred Glick at Pro Football Reference</a></li>
+	<li><a href="https://www.profootballhof.com/players/gale-sayers/" rel="noopener noreferrer" target="_blank">Halfback "Kansas Comet" Gale Sayers</a></li>
+	<li><a href="http://www.bearshistory.com/lore/galesayers.aspx" rel="noopener noreferrer" target="_blank">Gale Sayers, Running Back, 1965-1971</a></li>
+
+ 	
+</ul>
+
+
+
+<div style="text-align: center; font-weight: bold;">Most Pass Catches in Green Bay History</div>
+
+
+
+********************* Small Icon Rollover **************************
+
+<td>Roman Gabriel<a href="https://nflpastplayers.com/roman-gabriel/" class="g_sm_icon alignnone"></a></td>
+
+
+
+
+******************************************************************
+
+<ul style="list-style: none; font-style: italic; display: block;">
+    <li>* - Hall of Fame</li>
+    <li><span style="text-decoration: underline;"><strong>"Bold Text"</strong> </span>- Still Active on Team</li>
+    <li><strong>"Bold Text"</strong> - Still Active in League</li>
+    <li><a class="g_sm_icon alignnone" href="#"> </a> - Gallery Available</li>
+</ul>
+
+
+
+*******************************************************************
+
+[justified_image_grid preset=c8 ex_image_taxonomy=attachment_category ex_image_tax_term=football-cards exclude=21705 rml_id=447]
+
+
+½
+
+
+
+*******************************************************************
+
+[justified_image_grid preset=c8 title_field=caption caption_field=off caption=below mobile_caption=below caption_height=48 image_taxonomy=player_name image_tax_term="alan page,football-cards" orderby="title" order=ASC]
+
+
+
+**********************SYMBOLS - Use for Stat Notes***************
+
+
+★- NFL Hall of Fame
++ - All Pro
+* - Pro Bowl
+
+
+†
+‡
+♠	&#9824;	&spades;	SPADE --- NFL Record
+❤  &#10084;	Heavy black heart
+♥   &hearts; Black heart ----- Franchise Record
+♣   &#9827;  &clubs;    Clubs 
+
+♦ - Led the League
+
+
+♡	 	 	&#9825;	White heart
+
+
+
+♔	 	 	&#9812;	White King - AFL, AAFC Champ
+♚	 	 	&#9818;	Black konge  NFL Champ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
