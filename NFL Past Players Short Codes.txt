@@ -1,3 +1,10 @@
+****************ADD TO MLA SHORTCODE*********************************
+mla_alt_shortcode=justified_image_grid 
+
+mla_alt_shortcode=no
+
+
+
 
 
 *************** NON_ELEMENTOR GALLERY ***********************
