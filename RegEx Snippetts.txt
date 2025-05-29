@@ -1,0 +1,29 @@
+<a href="https://www.pro-football-reference.com/players/[A-Z]/[A-Za-z0-9\.\?_=&;"]+>
+
+
+
+
+
+
+
+
+
+
+
+Find this with RegEx 101 (and Dreamweaver):
+<td>(19\d\d|20\d\d)(<\/td>)\s*(<td>)(19\d\d|20\d\d)<\/td>
+
+Replace with:
+<td>$1-$4</td>
+
+
+Problem: if the first (non-year) <td> starts with 19 or 20, it gets captured.
+
+
+
+
+
+
+
+
+<td>(19\d\d|20\d\d)<\/td>
