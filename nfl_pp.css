@@ -1,222 +1,783 @@
 /*
-Welcome to Custom CSS!
-To learn how this works, see http://wp.me/PEmnE-Bt
+NFL Past Players Website - Custom CSS
+Polished and organized version
 */
 
-/* ------------------ GENERAL TEXT SIZES ------------------ */
-.larger_text { font-size: 1.75rem; font-weight: bold; }
-.smaller_text { font-size: .95rem; font-style: italic; }
-.small_text_80 { font-size: 80%; }
+/* ==========================================================================
+   GLOBAL STYLES & UTILITIES
+   ========================================================================== */
 
-.wee_note { font-size: .75em; font-style: italic; font-weight: 700; text-align: center; }
-.note, .excerpt_note { font-style: italic; font-size: .83em; }
-.excerpt_note_sm { font-style: italic; font-size: .7em; padding-top: .5em; }
-
-/* ------------------ HEADER & LOGO ------------------ */
-.no-header-border #site-header { z-index: 100; }
-
-#site-logo #site-logo-inner a { background-color: transparent !important; text-decoration: none; }
-#site-logo a.site-logo-text:hover { color: #333; }
-
-/* ------------------ AUTHOR & EXCERPT ------------------ */
-.category:not(.author) #author-bio-text { display: none; }
-
-.pp_excerpt {
-  list-style: none;
-  text-align: center;
-  margin: 10px auto;
-}
-.pp_excerpt_pos, .tee_pp_excerpt_pos { font-size: .95em; font-weight: bold; }
-.pp_excerpt_team { text-align: center; font-size: .83em; }
-.pp_excerpt_year { font-size: .95em; font-weight: bold; font-style: italic; }
-
-/* ------------------ BLOG ENTRIES ------------------ */
-.blog-entry.grid-entry .blog-entry-header { margin: 8px 0 6px; }
-.blog-entry.grid-entry .blog-entry-header .entry-title { font-size: 20px; text-align: center; }
-.blog-entry.grid-entry .blog-entry-readmore { position: absolute; bottom: 4px; }
-
-.blog-entry.post .thumbnail { position: relative; padding: 2px 1px; }
-.blog-entry.post .blog-entry-summary p:last-child { margin-bottom: 20px; }
-.blog-entry.post .thumbnail img { height: 200px; background-position: center top; }
-
-.thumbnail-caption, time.published { display: none; }
-
-/* ------------------ LISTS ------------------ */
-.new_player_list, .player_list ul { margin: 0 auto; width: 99%; }
-
-.new_player_list li, .player_list li {
-  float: left;
-  margin: 4px;
-  width: 164px;
-  height: 188px;
-  text-align: center;
-  font-weight: bold;
-  color: #000;
-  border: 1px solid #000;
-  line-height: 1.2em;
+/* Text Utilities */
+.larger_text {
+    font-size: 1.75rem;
+    font-weight: bold;
 }
 
-.new_player_list img, .player_list img { padding: 2px; }
-
-.new_player_list span, .player_list span {
-  display: block;
-  font-size: .86em;
-  margin-top: 4px;
+.smaller_text {
+    font-size: 0.95rem;
+    font-style: italic;
 }
 
-.new_player_list a, .player_list a { text-decoration: none; }
-.new_player_list a:hover, .player_list a:hover { color: #F00; }
-
-/* ------------------ TABLES ------------------ */
-.table_wrapper { display: block; overflow-x: auto; white-space: nowrap; clear: both; }
-
-table.sr_share {
-  width: 96%; border-collapse: collapse; font-size: .83em;
-  border: 1px solid #aaa; clear: both;
-}
-.sr_share th {
-  background-color: #ddd; border: 1px solid #aaa;
-  padding: 2px; text-align: center; vertical-align: middle;
-  font-size: 1rem; font-weight: bold;
-}
-.sr_share td {
-  color: #000; border: 1px solid #ccc; padding: 2px;
-  white-space: nowrap; text-align: center;
-}
-.sr_share tr:nth-child(even) { background-color: #6666661f; }
-.sr_share caption {
-  display: table-caption; text-align: left; color: #000;
-  line-height: 2em; font-size: 1.25rem;
-}
-.sr_share tfoot { display: table-footer-group; vertical-align: middle; border-top: 2px solid black; }
-.sr_share tfoot td { font-weight: bold; }
-.sr_share tfoot th { font-style: italic; font-size: .9em; }
-th.b_cell, td.b_cell { border-left: 2px solid #000; }
-
-table.sr_share_all_time {
-  border-collapse: collapse; width: 96%;
-}
-.sr_share_all_time caption {
-  display: table-caption; text-align: center; color: #000;
-  line-height: 2.25em; font-size: 2.25rem;
-}
-.sr_share_all_time th {
-  background-color: #ddd; border: 1px solid #aaa; padding: 2px;
-  text-align: center; font-size: 1.65rem; font-weight: bold; vertical-align: middle;
-}
-.sr_share_all_time td {
-  color: #000; border: 1px solid #ccc; padding: 4px;
-  white-space: nowrap; line-height: 2em; font-size: 1.8rem; text-align: center;
-}
-.sr_share_all_time tr:nth-child(even) { background-color: #6666661f; }
-
-/* ------------------ GROD TABLE ------------------ */
-table.grod {
-  border-collapse: collapse; font-size: 1.35em; font-family: montserrat;
-  min-width: 400px; border-right: 2px solid #000; margin-bottom: 1px;
-}
-.grod thead tr th {
-  background-color: #000; color: #fff; font-weight: bold; text-align: center; font-size: .55em;
-}
-.grod tbody th {
-  text-align: center; vertical-align: middle; background-color: #000; color: #fff; font-size: .69em;
-}
-.grod th, .grod td { padding: 1px; }
-.grod td { text-align: center; }
-.grod tbody tr { border-bottom: 1px solid; }
-.grod tbody tr:nth-of-type(even) { background-color: #f3f3f3; }
-.grod a { text-decoration: underline; }
-table.grod caption { display: table-caption; text-align: center; color: #000; line-height: 2em; }
-table.grod img { display: inline; margin-left: 3px; }
-
-/* Team colors */
-.grod.giants th { background-color: #40517f; color: #fff; }
-.grod.giants, .grod.giants tbody tr { border-right: 2px solid #40517f; border-bottom: 2px solid #40517f; }
-.grod.sf th { background-color: #aa0000; }
-.grod.sf, .grod.sf tbody tr { border-right: 2px solid #aa0000; border-bottom: 2px solid #aa0000; }
-
-/* ------------------ IMAGES & CAPTIONS ------------------ */
-.related-thumb img { height: 260px; background-position: center top; vertical-align: top; }
-
-.wp-caption-text {
-  box-sizing: border-box; color: #000; font-size: 12px; font-style: italic;
-  font-weight: bold; line-height: .25rem; margin: 0; text-align: center;
+.small_text_80 {
+    font-size: 80%;
 }
 
-.entry-thumbnail { background-position: center top; }
-
-ul.all_time_pics { width: 264px; float: right; margin-right: 2px; }
-.all_time_pics li { width: 260px; margin: 0 auto; list-style: none; }
-.all_time_pics img { max-width: 260px; text-align: center; }
-
-ul#twoimages { margin: 15px auto; width: 99%; text-align: center; list-style: none; }
-ul#twoimages li {
-  display: inline-block; margin: 0 auto; padding: 4px; max-width: 35%;
-  font: italic .85em/1em Arial, Helvetica, sans-serif; text-align: center; line-height: 1.2em;
+.left {
+    text-align: left;
 }
-#twoimages img { display: block; margin: 2px auto; }
-p#twoimages_cap { font: italic .8em/1em Arial, Helvetica, sans-serif; text-align: center; line-height: .9em; }
 
-/* ------------------ NAVIGATION ------------------ */
-#page .horizontal-navigation li ul li a:hover,
-#page .horizontal-navigation li ul li a:focus,
-#page .horizontal-navigation li a:hover,
-#page .horizontal-navigation li a:focus {
-  box-shadow: none; background: transparent; color: #fff;
+.note {
+    font-style: italic;
+    font-size: 0.83em;
+}
+
+.excerpt_note {
+    font-style: italic;
+    font-size: 0.85em;
+}
+
+.excerpt_note_sm {
+    font-style: italic;
+    font-size: 0.7em;
+    padding-top: 0.5em;
+}
+
+.wee_note {
+    font-size: 0.75em;
+    font-style: italic;
+    font-weight: 700;
+    text-align: center;
+}
+
+/* Links */
+a {
+    text-decoration: underline;
+    color: #000;
+}
+
+/* ==========================================================================
+   HEADER & NAVIGATION
+   ========================================================================== */
+
+.no-header-border #site-header {
+    z-index: 100;
+}
+
+#site-logo #site-logo-inner a {
+    background-color: transparent !important;
+    text-decoration: none;
+}
+
+#site-logo a.site-logo-text:hover {
+    color: #333;
+}
+
+#top-bar {
+    padding: 14px 8px;
+}
+
+/* Navigation Styles */
+#page .horisontal-navigation li ul li a:hover,
+#page .horisontal-navigation li ul li a:focus,
+#page .horisontal-navigation li a:hover,
+#page .horisontal-navigation li a:focus {
+    box-shadow: none;
+    background: transparent;
+    color: #fff;
 }
 
 .nav-link a {
-  background: #e0d5d5 linear-gradient(#ed0404, #f15a46);
-  border: none; border-radius: 3px;
-  box-shadow: 0 -1px 1px #808080 inset, 0 1px 1px #ccc inset, 0 0 0 1px #333, 0 2px 5px rgba(0,0,0,0.3);
-  color: rgb(245,245,245); font-size: 1em; font-weight: 700;
-  padding: .3em 1em; text-decoration: none; text-shadow: 0 -1px rgba(0,0,0,0.1);
+    background: #e0d5d5 linear-gradient(#ed0404, #f15a46) repeat scroll 0 0;
+    border: none;
+    border-radius: 3px;
+    box-shadow: 0 -1px 1px #808080 inset, 0 1px 1px #ccc inset, 0 0 0 1px #333, 0 2px 5px rgba(0, 0, 0, 0.3);
+    color: rgb(245, 245, 245);
+    font-size: 1em;
+    font-weight: 700;
+    outline: none;
+    padding: 0.3em 1em;
+    position: relative;
+    text-decoration: none;
+    text-shadow: 0 -1px rgba(0, 0, 0, 0.1);
 }
 
-/* ------------------ PAGINATION ------------------ */
-.pagination .page-numbers {
-  display: inline-block; margin-right: .5em; border: 2px solid transparent;
-  min-width: 2.5em; line-height: 2.25em; text-align: center; text-decoration: none;
-  border-radius: .25rem; color: inherit; font-size: x-large;
+/* ==========================================================================
+   BLOG & CONTENT LAYOUT
+   ========================================================================== */
+
+/* Blog Entry Styles */
+.blog-entry.grid-entry .blog-entry-header {
+    margin: 8px 0 6px;
 }
 
-/* ------------------ BUTTONS ------------------ */
-button, .button, .wp-block-button__link, .wp-element-button,
-input[type="button"], input[type="reset"], input[type="submit"] {
-  border-radius: 3px; background: var(--global-palette-btn-bg); color: var(--global-palette-btn);
-  padding: 0.4em 1em; border: 0; font-size: 1.125rem; line-height: 1.6;
-  display: inline-block; font-family: inherit; cursor: pointer; text-decoration: none;
-  transition: all 0.2s ease; box-shadow: 0 0 0 -7px rgba(0,0,0,0); margin: 10px;
+.blog-entry.post .thumbnail {
+    position: relative;
+    padding: 2px 1px;
 }
 
-/* ------------------ OTHER ------------------ */
-a { text-decoration: underline; color: #000; }
-.good_reads_heading { font-size: 1.35em; margin: 40px 0 15px; border-bottom: 1px solid #000; padding: 2px; }
-ul.good_reads { font-size: 1.25em; font-style: italic; list-style: none; margin: 0 0 40px 8px; padding: 4px; }
-.good_reads li { padding: 2px 0 0 2px; }
-.good_reads a { text-decoration: none; color: #000; border-bottom: 1px solid #000; }
-.good_reads a:hover { color: red; border-bottom: 1px solid red; }
+.blog-entry.grid-entry .blog-entry-header .entry-title {
+    font-size: 20px;
+    text-align: center;
+}
 
-.nothing-found > article, .content-container > article { padding: 10px; }
+.blog-entry.post .blog-entry-summary p:last-child {
+    margin-bottom: 20px;
+}
 
-/* ------------------ MEDIA QUERY ------------------ */
+.blog-entry.grid-entry .blog-entry-readmore {
+    position: absolute;
+    bottom: 4px;
+}
+
+/* Content Area */
+.nothing-found > article,
+.content-container > article {
+    padding: 10px;
+}
+
+#primary.content-area-wider {
+    float: left;
+    width: 66.625%;
+}
+
+/* Entry Content */
+.entry-content h2 {
+    font-size: 1.35em;
+}
+
+article h1 a {
+    display: inline-block;
+    line-height: 1.2;
+    padding: 6px;
+}
+
+/* Drop Cap */
+.elementor-drop-cap {
+    float: left;
+    text-align: center;
+    line-height: 0.75;
+    font-size: 40px;
+    margin-right: 6px;
+}
+
+/* Date Display */
+time.published {
+    display: none;
+}
+
+/* ==========================================================================
+   IMAGES & THUMBNAILS
+   ========================================================================== */
+
+/* Thumbnail Styles */
+.related-thumb img {
+    height: 260px;
+    background-position: center top;
+    vertical-align: top;
+}
+
+.blog-entry.post .thumbnail img {
+    height: 200px;
+    background-position: center top;
+}
+
+.entry-thumbnail {
+    background-position: center top;
+}
+
+.thumbnail-caption {
+    display: none;
+}
+
+/* Featured Post Thumbnail */
+#page .entry-thumbnail.coverback {
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    padding: 50% 0;
+}
+
+/* Image Captions */
+.wp-caption-text {
+    box-sizing: border-box;
+    color: #000;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: bold;
+    line-height: 1.5;
+    margin: 10px 0;
+    text-align: center;
+}
+
+/* Two Images Layout */
+ul#twoimages {
+    margin: 15px auto;
+    width: 99%;
+    text-align: center;
+    list-style: none;
+}
+
+ul#twoimages li {
+    display: inline-block;
+    margin: 0 auto;
+    padding: 4px;
+    text-align: center;
+    max-width: 35%;
+    font: italic 0.85em/1em Arial, Helvetica, sans-serif;
+    line-height: 1.2em;
+    list-style: none;
+}
+
+#twoimages img {
+    display: block;
+    text-align: center;
+    margin: 2px auto;
+}
+
+p#twoimages_cap {
+    font: italic 0.8em/1em Arial, Helvetica, sans-serif;
+    text-align: center;
+    text-indent: 0;
+    line-height: 0.9em;
+}
+
+/* ==========================================================================
+   PLAYER PROFILES & EXCERPTS
+   ========================================================================== */
+
+/* Player Profile Excerpts */
+.pp_excerpt {
+    list-style: none;
+    text-align: center;
+    margin: 0 auto 10px auto;
+}
+
+.pp_excerpt_pos {
+    font-size: 0.95em;
+    font-weight: bold;
+}
+
+.tee_pp_excerpt_pos {
+    font-size: 0.925rem;
+    font-weight: bold;
+}
+
+.pp_excerpt_team {
+    text-align: center;
+    font-size: 0.83em;
+}
+
+.pp_excerpt_year {
+    font-size: 0.95em;
+    font-weight: bold;
+    font-style: italic;
+}
+
+/* ==========================================================================
+   PLAYER LISTS
+   ========================================================================== */
+
+/* New Player List */
+ul.new_player_list {
+    margin: 0 auto;
+    width: 99%;
+}
+
+.new_player_list li {
+    float: left;
+    margin: 4px;
+    width: 164px;
+    height: 188px;
+    text-align: center;
+    font-weight: bold;
+    color: #000;
+    border: 1px solid #000;
+    line-height: 1.2em;
+}
+
+.new_player_list img {
+    padding: 2px;
+}
+
+.new_player_list span {
+    display: block;
+    font-size: 0.86em;
+}
+
+.new_player_list a {
+    text-decoration: none;
+}
+
+.new_player_list a:hover {
+    color: #f00;
+}
+
+/* Standard Player List */
+.player_list ul {
+    margin: 0 auto;
+    width: 99%;
+}
+
+.player_list li {
+    float: left;
+    padding: 3px;
+    margin: 4px;
+    width: 164px;
+    height: 188px;
+    text-align: center;
+    font-weight: bold;
+    color: #000;
+    border: 1px solid #000;
+    line-height: 1.2em;
+}
+
+.player_list img {
+    padding: 2px;
+}
+
+.player_list span {
+    display: block;
+    font-size: 0.86em;
+    margin-top: 4px;
+}
+
+.player_list a:hover {
+    color: #f00;
+}
+
+/* All Time Pictures */
+ul.all_time_pics {
+    width: 264px;
+    float: right;
+    margin-right: 2px;
+}
+
+.all_time_pics li {
+    width: 260px;
+    margin: 0 auto;
+    list-style: none;
+}
+
+.all_time_pics img {
+    max-width: 260px;
+    text-align: center;
+}
+
+/* ==========================================================================
+   TABLES & DATA DISPLAY
+   ========================================================================== */
+
+/* Table Wrapper */
+.table_wrapper {
+    display: block;
+    overflow-x: auto;
+    white-space: nowrap;
+    clear: both;
+    overflow: scroll;
+}
+
+/* PFR Stats Headers */
+h3.pfr_stats {
+    border-bottom: 1px solid #000;
+    border-right: 1px solid #000;
+    padding-right: 8px;
+    float: left;
+    margin-left: 4px;
+}
+
+h2.pfr_stats {
+    border-bottom: 2px solid #000;
+    border-right: 3px solid #000;
+    padding-right: 12px;
+    float: left;
+    margin-left: 6px;
+}
+
+/* SR Share Tables */
+table.sr_share {
+    width: 96%;
+    border-collapse: collapse;
+    font-size: 0.83em;
+    border: 1px solid #aaa;
+    clear: both;
+}
+
+.sr_share th {
+    background-color: #ddd;
+    border: 1px solid #aaa;
+    padding: 2px;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+th.text_85 {
+    font-size: 0.85rem;
+}
+
+.sr_share td {
+    color: #000;
+    border: 1px solid #ccc;
+    padding: 2px;
+    white-space: nowrap;
+    text-align: center;
+}
+
+table.sr_share tr:nth-child(even) {
+    background-color: #6666661f;
+}
+
+table.sr_share caption {
+    display: table-caption;
+    text-align: left;
+    color: #000;
+    line-height: 2.25em;
+    font-size: 1.75rem;
+}
+
+/* Table Footer */
+tfoot {
+    display: table-footer-group;
+    vertical-align: middle;
+    border-top: 2px solid black;
+}
+
+.sr_share tfoot td {
+    font-weight: bold;
+}
+
+.sr_share tfoot th {
+    font-style: italic;
+    font-size: 0.9em;
+}
+
+/* All Time Tables */
+table.sr_share_all_time caption {
+    display: table-caption;
+    text-align: center;
+    color: #000;
+    line-height: 2.25em;
+    font-size: 2.25rem;
+}
+
+.sr_share_all_time th {
+    background-color: #ddd;
+    border: 1px solid #aaa;
+    padding: 2px;
+    text-align: center;
+    font-size: 1.65rem;
+    font-weight: bold;
+    vertical-align: middle;
+}
+
+.sr_share_all_time td {
+    color: #000;
+    border: 1px solid #ccc;
+    padding: 4px;
+    white-space: nowrap;
+    line-height: 2em;
+    font-size: 1.8rem;
+    text-align: center;
+}
+
+table.sr_share_all_time a {
+    padding-left: 0;
+}
+
+table.sr_share_all_time tr:nth-child(even) {
+    background-color: #6666661f;
+}
+
+/* Grid Tables */
+table.grod {
+    border-collapse: collapse;
+    font-size: 1.35em;
+    font-family: montserrat;
+    min-width: 400px;
+    border-right: 2px solid #000;
+    margin-bottom: 1px;
+}
+
+.grod thead tr th {
+    background-color: #000;
+    color: #ffffff;
+    font-weight: bold;
+    text-align: center;
+    font-size: 0.55em;
+}
+
+.grod tbody th {
+    text-align: center;
+    vertical-align: middle;
+    background-color: #000;
+    color: #fff;
+    font-size: 0.69em;
+}
+
+.grod th,
+.grod td {
+    padding: 1px;
+}
+
+.grod td {
+    text-align: center;
+}
+
+.grod tbody tr {
+    border-bottom: 1px solid;
+}
+
+.grod tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+table.grod caption {
+    display: table-caption;
+    text-align: center;
+    color: #000;
+    line-height: 2em;
+}
+
+table.grod img {
+    display: inline;
+    margin-left: 3px;
+}
+
+/* Team Color Variants */
+.grod.giants th {
+    background-color: #40517f;
+    color: #fff;
+    font-weight: bold;
+}
+
+.grod.giants {
+    border-right: 2px solid #40517f;
+    border-bottom: 2px solid #40517f;
+}
+
+.grod.sf th {
+    background-color: #aa0000;
+}
+
+.grod.sf {
+    border-right: 2px solid #aa0000;
+    border-bottom: 2px solid #aa0000;
+}
+
+/* Display Table */
+.display_table {
+    width: 99%;
+}
+
+.display_table ul {
+    list-style-type: none;
+    width: 99%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #fff;
+}
+
+.display_table li {
+    float: left;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    width: 23%;
+    font-size: 1.75rem;
+    line-height: 60px;
+    height: 60px;
+    border: 1px #000 solid;
+    letter-spacing: 1px;
+}
+
+.display_table ul:nth-child(2n+2) li {
+    background: #ccc;
+}
+
+.display_table li:nth-child(5n+1) {
+    font-weight: bold;
+    font-size: 1.2rem;
+    width: 7%;
+    background: #fff;
+}
+
+/* Table Cell Styles */
+th.b_cell,
+td.b_cell {
+    border-left: 2px solid #000;
+}
+
+tr.bot_cell_border,
+td.bot_cell_border {
+    border-bottom: 3px solid #000;
+}
+
+.leader_footnote {
+    font-size: 0.75em;
+    padding: 0 3px;
+    vertical-align: top;
+}
+
+/* Stat Table */
+.stat_table {
+    color: #333;
+}
+
+th.stat_table {
+    text-align: center;
+    color: #ff0000;
+}
+
+/* ==========================================================================
+   ICONS & GALLERY
+   ========================================================================== */
+
+/* Gallery Icons */
+a.g_icon:link,
+.g_icon {
+    width: 24px;
+    height: 24px;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 5px 6px 5px;
+    background-image: url("https://nflpastplayers.com/wp-content/uploads/2021/03/gallery-icon.jpg");
+}
+
+a.g_icon:hover {
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    vertical-align: middle;
+    background-image: url("https://nflpastplayers.com/wp-content/uploads/2021/03/gallery-icon-hover.jpg");
+}
+
+/* Small Gallery Icons */
+a.g_sm_icon:link {
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 5px 6px 5px;
+    background-image: url("https://nflpastplayers.com/wp-content/uploads/2021/03/gallery-icon-2.jpg");
+}
+
+a.g_sm_icon:hover {
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    vertical-align: middle;
+    background-image: url("https://nflpastplayers.com/wp-content/uploads/2021/03/gallery-icon-hover-2.jpg");
+}
+
+.gallery-link-icon {
+    vertical-align: middle;
+    width: 22px;
+    margin-left: 3px;
+    padding-bottom: 2px;
+}
+
+/* ==========================================================================
+   LIGHTBOX & POPUP STYLES
+   ========================================================================== */
+
+div.pswp_caption_center a {
+    color: #030503;
+    text-decoration: underline;
+}
+
+.pswp table {
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.pswp th {
+    font-size: 1em;
+    text-align: center;
+    color: #f5f5f5;
+}
+
+.pswp td {
+    font-size: 0.9em;
+    text-align: center;
+}
+
+.pswp h3 {
+    text-align: left;
+    color: #fff;
+    margin-left: 20%;
+}
+
+/* ==========================================================================
+   TEAM LINKS PAGE
+   ========================================================================== */
+
+.team_links {
+    width: 99.9%;
+    display: inline-block;
+}
+
+.team_links ul {
+    width: 29%;
+    float: left;
+    list-style: none;
+    padding: 8px;
+    border-radius: 10px;
+}
+
+.team {
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.25em;
+}
+
+/* ==========================================================================
+   EXTRA READING SECTION
+   ========================================================================== */
+
+.good_reads_heading {
+    font-size: 1.35em;
+    margin: 40px 0 15px 0;
+    border-bottom: 1px solid #000;
+    padding: 2px;
+}
+
+ul.good_reads {
+    font-size: 1.25em;
+    font-style: italic;
+    list-style: none;
+    margin: 0 0 40px 8px;
+    padding: 4px;
+}
+
+.good_reads li {
+    padding: 2px 0 0 2px;
+}
+
+.good_reads a {
+    text-decoration: none;
+    color: #000;
+    border-bottom: 1px solid #000;
+}
+
+.good_reads a:hover {
+    color: red;
+    border-bottom: 1px solid red;
+}
+
+/* ==========================================================================
+   RESPONSIVE DESIGN
+   ========================================================================== */
+
 @media (min-width: 1200px) {
-  .hm-container-wider { max-width: 1200px; }
-  .elementor-slideshow__description { font-size: 18px; }
+    .hm-container-wider {
+        max-width: 1200px;
+    }
 
-  .display_table { width: 99%; }
-  .display_table ul {
-    list-style-type: none; width: 99%; margin: 0; padding: 0;
-    overflow: hidden; background-color: #fff;
-  }
-  .display_table li {
-    float: left; text-align: center; width: 23%;
-    font-size: 1.75rem; line-height: 60px; height: 60px;
-    border: 1px solid #000; letter-spacing: 1px;
-  }
-  .display_table ul:nth-child(2n+2) li { background: #CCC; }
-  .display_table li:nth-child(5n+1) {
-    font-weight: bold; font-size: 1.2rem; width: 7%; background: #fff;
-  }
+    .elementor-slideshow__description {
+        font-size: 18px;
+    }
 }
-
