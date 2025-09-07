@@ -26,8 +26,13 @@ To learn how this works, see http://wp.me/PEmnE-Bt
   text-align: center;
   margin: 10px auto;
 }
-.pp_excerpt_pos, .tee_pp_excerpt_pos { font-size: .95em; font-weight: bold; }
-.pp_excerpt_team { text-align: center; font-size: .83em; }
+
+.pp_excerpt { padding: 5px; }
+
+.pp_excerpt_pos, .tee_pp_excerpt_pos { font-size: 1.2em; font-weight: bold; padding: 2px;}
+
+.pp_excerpt_team { text-align: center; font-size: 1em; padding: 1px; font-weight: bold; }
+
 .pp_excerpt_year { font-size: .95em; font-weight: bold; font-style: italic; }
 
 /* ------------------ BLOG ENTRIES ------------------ */
@@ -92,6 +97,12 @@ table.sr_share {
 .sr_share tfoot td { font-weight: bold; }
 .sr_share tfoot th { font-style: italic; font-size: .9em; }
 th.b_cell, td.b_cell { border-left: 2px solid #000; }
+
+
+tr.bot_cell_border, td.bot_cell_border, th.bot_cell_border  {
+	border-bottom: 2px solid #000; border-top: 2px solid #000; line-height: 0px; background-color:grey;	
+} 
+
 
 table.sr_share_all_time {
   border-collapse: collapse; width: 96%;
