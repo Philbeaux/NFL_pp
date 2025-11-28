@@ -34,6 +34,8 @@ mla_alt_shortcode=no
 
 [mla_gallery mla_search_fields="excerpt,title,terms" mla_search_connector=or preset=c8 s='"sam baugh" "sammy baugh"' order=desc]
 
+[mla_gallery mla_search_fields="excerpt,title,terms" mla_search_connector=or preset=c8 s='"sam baugh" "hugh mcelhenny"' order=desc exclude=21705 ex_image_taxonomy=attachment_category ex_image_tax_term="football-cards,cover"]
+
 
 
 
