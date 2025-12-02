@@ -56,7 +56,9 @@ mla_alt_shortcode=no
 
 
 
+**************Team Gallery with  Attachment Category Fitlers****************************
 
+[justified_image_grid gallery=14375 filterby=attachment_category filter_style=buttons filter_all_text="All Coltss Pics" filter_custom_order=football-cards filter_all_button=yes filter_multiple=no image_taxonomy=attachment_tag image_tax_term=baltimore-indianapolis-colts load_more_text="More Classic Colts Football Pictures" ex_image_taxonomy=attachment_tag ex_image_tax_term=afl]
 
 
 
