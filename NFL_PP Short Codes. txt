@@ -21,6 +21,14 @@ mla_alt_shortcode=no
 
 ****** CREATES A GALLERY FROM SEARCH FIELDS AND TAXONOMIES ******** 
 
+
+[mla_gallery gallery=36473 mla_search_fields="excerpt,title,terms" mla_search_connector=OR sentence=true s='earl morrall' preset=c8 ex_image_taxonomy=attachment_category ex_image_tax_term=football-cards order=desc]
+
+
+
+
+[mla_gallery mla_search_fields="excerpt,title,terms" mla_search_connector=and preset=c8 s="hugh mcelhenny" whole_word=true order=desc exclude=21705 ex_image_taxonomy=attachment_category ex_image_tax_term="football-cards,cover"]
+
 [mla_gallery mla_search_fields="alt-text,title,terms" mla_search_connector=OR sentence=true s='ernie stautner' preset=c8 ex_image_taxonomy=attachment_category ex_image_tax_term=football-cards exclude=22354 order=desc]
 
 
