@@ -3,6 +3,72 @@ Welcome to Custom CSS!
 To learn how this works, see http://wp.me/PEmnE-Bt
 */
 
+/* Styled H1 Tag for non-elementor posts */
+
+H1.wp_post_title {
+    font-family: "Zen Antique", Sans-serif;
+    font-size: 2.4rem;
+    line-height: 1.4em;
+}
+
+.section_title {
+    font-family: "Zen Antique", Sans-serif;
+    font-size: 2.4rem;
+    line-height: 1.4em;
+}
+
+.standard_text {
+    font-family: "Roboto", Sans-serif;
+    font-size: 1.3em;
+    line-height: 1.6em;
+    color: #333333;
+}
+
+
+/***********************************/
+
+
+
+
+/* Hide the unwanted blue buttons under the dropdowns */
+.header-navigation .menu-item button,
+.header-navigation .menu-item .dropdown-toggle {
+  display: none !important;
+}
+
+/* Ensure dropdown menus still open properly on hover */
+.header-navigation .menu-item-has-children:hover > .sub-menu {
+  display: block;
+  opacity: 1;
+  visibility: visible;
+}
+/* --- Remove blue dropdown buttons and keep layout stable --- */
+.header-navigation .menu-item .dropdown-toggle {
+  background: transparent !important;
+  border: none !important;
+  color: inherit !important;
+  width: auto !important;
+  height: auto !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  line-height: normal !important;
+  font-size: 0 !important; /* hides any text inside */
+}
+
+/* Ensure dropdowns open normally on hover */
+.header-navigation .menu-item-has-children:hover > .sub-menu {
+  display: block;
+  opacity: 1;
+  visibility: visible;
+  transition: all 0.2s ease-in-out;
+}
+
+
+.header-social-wrap .header-social-inner-wrap {
+    font-size: 1.25em;
+    gap: 0.3em;
+}
+
 /* ------------------ GENERAL TEXT SIZES ------------------ */
 .larger_text { font-size: 1.75rem; font-weight: bold; }
 .smaller_text { font-size: .95rem; font-style: italic; }
@@ -79,6 +145,9 @@ table.sr_share {
   width: 96%; border-collapse: collapse; font-size: .83em;
   border: 1px solid #aaa; clear: both;
 }
+
+table.sr_share caption { font-size:1.5rem; }
+
 .sr_share th {
   background-color: #ddd; border: 1px solid #aaa;
   padding: 2px; text-align: center; vertical-align: middle;
@@ -88,7 +157,7 @@ table.sr_share {
   color: #000; border: 1px solid #ccc; padding: 2px;
   white-space: nowrap; text-align: center;
 }
-.sr_share tr:nth-child(even) { background-color: #6666661f; }
+
 .sr_share caption {
   display: table-caption; text-align: left; color: #000;
   line-height: 2em; font-size: 1.25rem;
@@ -229,5 +298,13 @@ ul.good_reads { font-size: 1.25em; font-style: italic; list-style: none; margin:
   .display_table li:nth-child(5n+1) {
     font-weight: bold; font-size: 1.2rem; width: 7%; background: #fff;
   }
-}
 
+	/* ---- Anchor_Menu -- */
+	ul.anchor_menu { list-style: none; }
+ul.anchor_menu li {float:left; padding: 4px;}
+
+/* Image Captions */
+	.wp-caption .wp-caption-text {
+    margin: .25rem 0 1.25rem 0;
+}
+}

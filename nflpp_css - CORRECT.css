@@ -303,5 +303,8 @@ ul.good_reads { font-size: 1.25em; font-style: italic; list-style: none; margin:
 	ul.anchor_menu { list-style: none; }
 ul.anchor_menu li {float:left; padding: 4px;}
 
-
+/* Image Captions */
+	.wp-caption .wp-caption-text {
+    margin: .25rem 0 1.25rem 0;
+}
 }
