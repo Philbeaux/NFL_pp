@@ -25,16 +25,16 @@ mla_alt_shortcode=no
 
 ****** CREATES A GALLERY FROM SEARCH FIELDS AND TAXONOMIES ******** 
 
-[mla_gallery mla_search_fields="excerpt,title,content" mla_search_connector=OR sentence=true s='preston pearson' ex_image_taxonomy=attachment_category ex_image_tax_term="football-cards,cover" order=desc gallery=36473]
+[mla_gallery mla_search_fields="excerpt,title,content,terms" mla_search_connector=OR sentence=true s='jackie smith' ex_image_taxonomy=attachment_category ex_image_tax_term="football-cards,cover" order=desc gallery=36473]
 
 
 
 
-[mla_gallery mla_search_fields="excerpt,title" mla_search_connector=OR sentence=true s='bob griese' preset=c8 ex_image_taxonomy=attachment_category ex_image_tax_term=football-cards order=desc gallery=36473 ]
+[mla_gallery mla_search_fields="excerpt,title" mla_search_connector=OR sentence=true s='bob griese' ex_image_taxonomy=attachment_category ex_image_tax_term=football-cards order=desc gallery=36473 ]
 
 
 
-[mla_gallery mla_search_fields="excerpt,title,terms" mla_search_connector=OR sentence=true s='lenny moore' preset=c8 ex_image_taxonomy=attachment_category ex_image_tax_term=football-cards order=desc]
+[mla_gallery mla_search_fields="excerpt,title,terms" mla_search_connector=OR sentence=true s='lenny moore' ex_image_taxonomy=attachment_category ex_image_tax_term=football-cards order=desc]
 
 
 [mla_gallery mla_search_fields="excerpt,title,terms" mla_search_connector=and s='"Joe Green" "John Brown"' order=desc]
@@ -62,7 +62,7 @@ mla_alt_shortcode=no
 [justified_image_grid preset=c8 title_field=caption caption_field=off caption=below mobile_caption=below caption_height=48 image_taxonomy=player_name image_categories="football-cards,cover" image_tax_term="dave casper" orderby="title" order=ASC]
 
 
-[justified_image_grid gallery=43374  image_tax_term="ya tittle"]
+[justified_image_grid gallery=43374  image_tax_term="john henry johnson"]
 
 
 
