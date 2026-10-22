@@ -62,10 +62,14 @@ mla_alt_shortcode=no
 [justified_image_grid preset=c8 title_field=caption caption_field=off caption=below mobile_caption=below caption_height=48 image_taxonomy=player_name image_categories="football-cards,cover" image_tax_term="dave casper" orderby="title" order=ASC]
 
 
-[justified_image_grid gallery=43374  image_tax_term="john henry johnson"]
+[justified_image_grid gallery=43374  image_tax_term="lenny moore"]
 
 
 
+******Adds Art Images to Cards Gallery*************
+[justified_image_grid gallery=43374  image_tax_term="lenny moore" image_taxonomy=player_name image_categories="football-cards,cover,football-art"]
+
+ 
 
 
 
